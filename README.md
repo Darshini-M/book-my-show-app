@@ -10,4 +10,3 @@ A responsive clone of the BookMyShow homepage built with React and Tailwind CSS.
 - Tailwind CSS
 - React Slick
 - JavaScript
-- Vite
