@@ -32,7 +32,7 @@ const MoviePage = () => {
       setSimilarMovies(getSimilarMovies.data.results);
     };
     requestSimilarMovies();
-  }, [id]);
+  }, [id, setSimilarMovies]);
 
   useEffect(() => {
     const requestRecommededMovies = async () => {
@@ -50,7 +50,7 @@ const MoviePage = () => {
       setMovie(getMovieDate.data);
     };
     requestMovie();
-  }, [id]);
+  }, [id, setMovie]);
 
   const settingsCast = {
     infinite: false,
